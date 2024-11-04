@@ -13,7 +13,19 @@ sudo apt update
 Composer membutuhkan PHP dan beberapa ekstensi untuk berjalan. Pastikan PHP terinstal. Anda juga mungkin perlu menginstal beberapa ekstensi tambahan:
 
 ```bash
-sudo apt install php php-cli php-mbstring unzip
+sudo apt install -y software-properties-common
+```
+
+```bash
+sudo add-apt-repository ppa:ondrej/php
+```
+
+```bash
+sudo apt update
+```
+
+```bash
+sudo apt install -y php8.3 php8.3-cli php8.3-fpm php8.3-mysql php8.3-xml php8.3-mbstring php8.3-curl php8.3-zip
 ```
 
 ### Langkah 3: Unduh dan Instal Composer
