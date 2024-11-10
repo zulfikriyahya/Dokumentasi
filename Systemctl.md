@@ -132,8 +132,3 @@
   ```
 
 Daftar ini mencakup beberapa perintah dasar `systemctl` yang sering digunakan. Setiap perintah dapat digunakan untuk berbagai keperluan dalam mengelola layanan dan sistem pada distribusi Linux yang menggunakan systemd.
-
-```
-
-Jika ada bagian lain yang perlu diperbaiki atau ditambahkan, beri tahu saja ya! 😊
-```
