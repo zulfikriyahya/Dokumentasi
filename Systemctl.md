@@ -1,6 +1,3 @@
-Berikut adalah daftar perintah `systemctl` beserta penjelasannya dalam format file .md (Markdown):
-
-````markdown
 # Daftar Perintah systemctl
 
 `systemctl` adalah utilitas baris perintah yang digunakan untuk mengontrol sistem dan layanan manajemen systemd. Berikut adalah beberapa perintah umum yang sering digunakan:
@@ -12,7 +9,6 @@ Berikut adalah daftar perintah `systemctl` beserta penjelasannya dalam format fi
   ```sh
   sudo systemctl start nginx
   ```
-````
 
 - **`systemctl stop [nama-layanan]`**
   Menghentikan layanan yang ditentukan.
